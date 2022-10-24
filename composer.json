@@ -1,0 +1,23 @@
+{
+    "name": "suunnn/wechatlib",
+    "description": "Wechat SDK for PHP",
+    "autoload": {
+        "psr-4": {
+            "WeChatLib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "suunnn",
+            "email": "cn.sunhaowei@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.4",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "symfony/psr-http-message-bridge": "^2.1",
+        "ext-openssl": "*"
+    },
+    "license": "MIT"
+}
